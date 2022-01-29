@@ -1,12 +1,12 @@
 # Crwn Clothing React 2022 Project
 
-What i am used?
+## What i am used?
 
-React-Router v6
-React
-Redux state manager
-Firebase as Backend
-Stripe payments
+- React-Router v6
+- React
+- Redux state manager
+- Firebase as Backend
+- Stripe payments
 
 I am going to add some more features in near future;
 for deployment i used heroku;
