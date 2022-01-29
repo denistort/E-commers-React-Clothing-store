@@ -1,5 +1,7 @@
 # Crwn Clothing React 2022 Project
 
+![crwn-clothing](https://user-images.githubusercontent.com/71392741/151657202-c2f8acda-b172-45ab-9f7f-be63d102be80.jpg)
+
 ## What i am used?
 
 - React-Router v6
