@@ -1,0 +1,56 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center;
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+      transition: 0.3s ease;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+      }
+      &:hover:before {
+        width: 50%;
+      }
+      &:hover:after {
+        width: 50%;
+      }
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .sign-out-link {
+      cursor: pointer;
+    }
+  }
+}

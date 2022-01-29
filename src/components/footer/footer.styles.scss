@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 150px;
+  .footer-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      letter-spacing: 0.3px;
+      font-size: 18px;
+    }
+  }
+}
