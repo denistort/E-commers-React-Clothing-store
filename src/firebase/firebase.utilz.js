@@ -16,15 +16,7 @@ import {
 	signOut,
 }from 'firebase/auth';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCK1k0yOsuFIhcCripoXYv0aLCnnhDqawM",
-  authDomain: "crw-clothing-ca6fa.firebaseapp.com",
-  projectId: "crw-clothing-ca6fa",
-  storageBucket: "crw-clothing-ca6fa.appspot.com",
-  messagingSenderId: "513725582531",
-  appId: "1:513725582531:web:f628d6e7d2fb43d26ca676",
-  measurementId: "G-8WJYVXBEF6"
-};
+const firebaseConfig = {};
 
 // eslint-disable-next-line no-unused-vars
 const app = initializeApp(firebaseConfig);
